@@ -16,7 +16,7 @@ import java.util.Random;
 
 public class Main2Activity extends AppCompatActivity {
 
-
+// creates random number for coin flip
     public static final Random RANDOM = new Random();
 
 
@@ -27,6 +27,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+// button changes activity from the flip screen to the play screen
 
         Button mainGame = (Button) findViewById(R.id.letsPlay);
         mainGame.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +51,7 @@ public class Main2Activity extends AppCompatActivity {
         });
     }
 
-
+// animation for the coin to fade in and out
     private void flipCoin() {
         Animation fadeOut = new AlphaAnimation(1, 0);
         fadeOut.setInterpolator(new AccelerateInterpolator());

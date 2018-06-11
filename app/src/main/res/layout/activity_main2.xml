@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="@drawable/mtgbackground5"
+    android:background="@drawable/mtgbackground6"
     tools:context="com.example.android.lifecounter.Main2Activity">
 
 
